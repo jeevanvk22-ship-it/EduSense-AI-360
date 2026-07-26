@@ -1,0 +1,116 @@
+{
+  "app": {
+    "name": "EduSense AI 360",
+    "version": "1.0.0",
+    "tagline": "AI-Powered Smart Classroom Engagement & Teaching Quality Monitoring"
+  },
+  "paths": {
+    "data_dir": "data",
+    "sessions_dir": "data/sessions",
+    "analytics_dir": "data/analytics",
+    "temp_dir": "data/temp",
+    "exports_dir": "exports",
+    "reports_dir": "exports/reports",
+    "logs_dir": "logs",
+    "models_dir": "models",
+    "assets_dir": "assets"
+  },
+  "camera": {
+    "device_index": 0,
+    "width": 1280,
+    "height": 720,
+    "fps": 30,
+    "max_faces": 10,
+    "reconnect_max_retries": 5,
+    "reconnect_backoff_seconds": 1.5,
+    "failed_read_limit": 30
+  },
+  "face_detection": {
+    "min_confidence": 0.5,
+    "model_selection": 1,
+    "tracking_max_lost_frames": 15,
+    "reacquire_grace_frames": 30,
+    "reacquire_distance_ratio": 0.15
+  },
+  "eye_tracking": {
+    "ear_open_threshold": 0.18,
+    "gaze_center_tolerance": 0.22,
+    "head_yaw_limit": 30.0,
+    "head_pitch_limit": 25.0,
+    "long_closure_seconds": 3.0,
+    "blink_min_frames": 1,
+    "blink_max_frames": 6,
+    "smoothing_window": 5
+  },
+  "emotion": {
+    "backend": "fer",
+    "confidence_threshold": 0.35,
+    "smoothing_window": 8,
+    "engagement_weights": {
+      "happy": 0.9,
+      "surprise": 0.7,
+      "neutral": 0.5,
+      "sad": -0.4,
+      "fear": -0.5,
+      "angry": -0.6,
+      "disgust": -0.6
+    }
+  },
+  "engagement": {
+    "weights": {
+      "attention": 0.5,
+      "emotion": 0.3,
+      "presence": 0.2
+    },
+    "bands": [
+      { "min": 81, "label": "Excellent" },
+      { "min": 61, "label": "Good" },
+      { "min": 31, "label": "Average" },
+      { "min": 0, "label": "Poor" }
+    ],
+    "distraction_threshold": 31,
+    "prolonged_inattention_seconds": 10,
+    "smoothing_window": 15,
+    "risk_levels": {
+      "high_below": 25,
+      "moderate_below": 50
+    }
+  },
+  "analytics": {
+    "trend_min_frames": 6,
+    "trend_rising_delta": 8.0,
+    "trend_declining_delta": -8.0,
+    "low_engagement_threshold": 31
+  },
+  "frame_processing": {
+    "low_light_threshold": 50.0,
+    "overexposed_threshold": 220.0,
+    "blur_threshold": 100.0,
+    "analysis_downscale_width": 640
+  },
+  "performance": {
+    "target_fps": 15.0,
+    "max_frame_ms": 80.0,
+    "max_cpu_percent": 60.0,
+    "max_memory_mb": 1500.0,
+    "sample_window": 30
+  },
+  "dashboard": {
+    "theme": "dark",
+    "live_refresh_hz": 2.0,
+    "chart_refresh_hz": 1.0,
+    "layout_density": "comfortable",
+    "max_live_points": 600
+  },
+  "logging": {
+    "level": "INFO",
+    "console": true,
+    "rotation_max_bytes": 2097152,
+    "retention_count": 5
+  },
+  "report": {
+    "default_format": "pdf",
+    "export_location": "exports/reports",
+    "retention_count": 50
+  }
+}

@@ -1,0 +1,27 @@
+# EduSense AI 360 - Python dependencies (Python 3.12+)
+# Install:  pip install -r requirements.txt
+
+# --- UI ---
+gradio>=4.44.0
+
+# --- Computer Vision ---
+opencv-python>=4.10.0
+mediapipe>=0.10.14
+
+# --- Emotion detection (FER default; DeepFace optional backend) ---
+fer>=22.5.1
+# deepface>=0.0.93
+
+# --- Data processing ---
+numpy>=1.26.0
+pandas>=2.2.0
+
+# --- Graphs ---
+plotly>=5.22.0
+
+# --- Performance monitoring (optional; CPU/memory metrics) ---
+psutil>=5.9.0
+
+# --- Report generation ---
+reportlab>=4.2.0
+openpyxl>=3.1.0

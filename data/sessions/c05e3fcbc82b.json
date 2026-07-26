@@ -1,0 +1,455 @@
+{
+  "summary": {
+    "session_id": "c05e3fcbc82b",
+    "session_name": "Demo \u00b7 Class 8B Science",
+    "duration_seconds": 4.2,
+    "frames_recorded": 36,
+    "average_engagement": 59.9,
+    "peak_engagement": 72.4,
+    "lowest_engagement": 51.2,
+    "average_attendance": 5.0,
+    "attention_trend": "Declining"
+  },
+  "model_versions": {
+    "face_detection": "mediapipe.face_detection",
+    "eye_tracking": "mediapipe.face_mesh",
+    "emotion_detection": "fer"
+  },
+  "frames": [
+    {
+      "t": 3.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 72.4,
+      "raw_engagement": 72.4,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 4.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 72.2,
+      "raw_engagement": 72.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 5.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 72.0,
+      "raw_engagement": 71.6,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 6.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 71.6,
+      "raw_engagement": 70.3,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 7.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 71.1,
+      "raw_engagement": 69.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 8.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 70.6,
+      "raw_engagement": 68.0,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 9.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 70.1,
+      "raw_engagement": 67.0,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 10.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 69.5,
+      "raw_engagement": 65.8,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 11.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 69.0,
+      "raw_engagement": 65.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 12.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 68.6,
+      "raw_engagement": 64.6,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 13.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 68.2,
+      "raw_engagement": 64.2,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 14.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 67.8,
+      "raw_engagement": 63.8,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 15.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 67.5,
+      "raw_engagement": 63.2,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 16.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 67.1,
+      "raw_engagement": 62.6,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 17.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 66.8,
+      "raw_engagement": 61.8,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 18.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 66.0,
+      "raw_engagement": 60.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 19.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 65.0,
+      "raw_engagement": 58.3,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 20.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 64.0,
+      "raw_engagement": 56.5,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 21.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 63.0,
+      "raw_engagement": 55.0,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 22.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 62.0,
+      "raw_engagement": 53.6,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 23.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 60.9,
+      "raw_engagement": 52.5,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 24.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 59.9,
+      "raw_engagement": 51.7,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 25.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 59.0,
+      "raw_engagement": 51.4,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "sad"
+    },
+    {
+      "t": 26.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 58.0,
+      "raw_engagement": 51.2,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 27.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 57.1,
+      "raw_engagement": 51.2,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 28.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 56.3,
+      "raw_engagement": 51.4,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 29.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 55.5,
+      "raw_engagement": 51.7,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 30.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 54.8,
+      "raw_engagement": 52.4,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 31.83,
+      "timestamp": "2026-07-26T11:54:43",
+      "classroom_engagement": 54.1,
+      "raw_engagement": 53.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 32.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.6,
+      "raw_engagement": 54.0,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 33.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.3,
+      "raw_engagement": 55.0,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 34.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.1,
+      "raw_engagement": 56.1,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 35.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.2,
+      "raw_engagement": 57.4,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 36.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.4,
+      "raw_engagement": 58.8,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 37.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 53.9,
+      "raw_engagement": 60.2,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    },
+    {
+      "t": 38.83,
+      "timestamp": "2026-07-26T11:54:44",
+      "classroom_engagement": 54.5,
+      "raw_engagement": 61.9,
+      "faces_present": 5,
+      "distracted_count": 0,
+      "dominant_emotion": "neutral"
+    }
+  ],
+  "student_summaries": [
+    {
+      "student_id": 0,
+      "frames": 36,
+      "average_engagement": 80.3,
+      "peak_engagement": 93.0,
+      "lowest_engagement": 68.9,
+      "performance": "Good",
+      "attentive_seconds": 35.0,
+      "distracted_seconds": 0.0,
+      "attention_ratio": 100.0,
+      "emotion_distribution": {
+        "happy": 47.2,
+        "neutral": 52.8
+      },
+      "low_engagement_periods": 0,
+      "trend": "Declining",
+      "behaviour_pattern": "Consistent, highly-focused engagement.",
+      "remark_basis": "avg 80.3, trend Declining, low-periods 0"
+    },
+    {
+      "student_id": 1,
+      "frames": 36,
+      "average_engagement": 65.1,
+      "peak_engagement": 76.7,
+      "lowest_engagement": 55.9,
+      "performance": "Good",
+      "attentive_seconds": 35.0,
+      "distracted_seconds": 0.0,
+      "attention_ratio": 100.0,
+      "emotion_distribution": {
+        "neutral": 75.0,
+        "sad": 25.0
+      },
+      "low_engagement_periods": 0,
+      "trend": "Declining",
+      "behaviour_pattern": "Engagement declined over the session.",
+      "remark_basis": "avg 65.1, trend Declining, low-periods 0"
+    },
+    {
+      "student_id": 2,
+      "frames": 36,
+      "average_engagement": 57.4,
+      "peak_engagement": 68.7,
+      "lowest_engagement": 50.4,
+      "performance": "Average",
+      "attentive_seconds": 30.0,
+      "distracted_seconds": 5.0,
+      "attention_ratio": 85.7,
+      "emotion_distribution": {
+        "neutral": 55.6,
+        "sad": 41.7,
+        "happy": 2.8
+      },
+      "low_engagement_periods": 0,
+      "trend": "Stable",
+      "behaviour_pattern": "Steady, moderate engagement.",
+      "remark_basis": "avg 57.4, trend Stable, low-periods 0"
+    },
+    {
+      "student_id": 3,
+      "frames": 36,
+      "average_engagement": 58.5,
+      "peak_engagement": 76.0,
+      "lowest_engagement": 46.1,
+      "performance": "Average",
+      "attentive_seconds": 28.0,
+      "distracted_seconds": 7.0,
+      "attention_ratio": 80.0,
+      "emotion_distribution": {
+        "neutral": 36.1,
+        "sad": 63.9
+      },
+      "low_engagement_periods": 0,
+      "trend": "Declining",
+      "behaviour_pattern": "Engagement declined over the session.",
+      "remark_basis": "avg 58.5, trend Declining, low-periods 0"
+    },
+    {
+      "student_id": 4,
+      "frames": 36,
+      "average_engagement": 38.0,
+      "peak_engagement": 49.2,
+      "lowest_engagement": 31.4,
+      "performance": "Average",
+      "attentive_seconds": 4.0,
+      "distracted_seconds": 31.0,
+      "attention_ratio": 11.4,
+      "emotion_distribution": {
+        "sad": 100.0
+      },
+      "low_engagement_periods": 0,
+      "trend": "Declining",
+      "behaviour_pattern": "Engagement declined over the session.",
+      "remark_basis": "avg 38.0, trend Declining, low-periods 0"
+    }
+  ],
+  "teacher_insights": {
+    "observations": [
+      "Students were engaged overall (avg 59.9/100), with quieter stretches.",
+      "Attention gradually decreased as the session went on.",
+      "On average 5.0 students were visible and participating."
+    ],
+    "suggestions": [
+      "A short activity or break around the dip can re-energise the room.",
+      "Introduce a question or quick poll to invite participation.",
+      "Use concrete examples or visuals to anchor difficult points."
+    ],
+    "drop_points": [],
+    "overall": "A solid session with clear opportunities to lift the quieter moments."
+  }
+}
