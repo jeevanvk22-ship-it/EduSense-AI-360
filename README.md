@@ -128,15 +128,23 @@ Instead of evaluating individual students, EduSense AI 360 focuses on overall cl
 
 ---
 
-## Session Reports
+## 📄 Session Reports
 
-### Report 1
+### Page 1
 
-![Session Report](screenshots/session%20report%201.png)
+![Session Report 1](screenshots/session%20report%201.png)
 
-### Report 2
+---
 
-![Session Report](screenshots/session%20report%202.png)
+### Page 2
+
+![Session Report 2](screenshots/session%20report%202.png)
+
+---
+
+### Page 3
+
+![Session Report 3](screenshots/session%20report%203.png)
 
 ---
 
