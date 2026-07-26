@@ -1,6 +1,7 @@
 <p align="center">
   <img src="banner.png" width="100%">
 </p>
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
 
 ![Gradio](https://img.shields.io/badge/Gradio-Latest-orange)
