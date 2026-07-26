@@ -1,94 +1,262 @@
-# EduSense AI 360
+# 🎓 EduSense AI 360
 
-**AI-Powered Smart Classroom Engagement & Teaching Quality Monitoring System**
-
-A fully software-based platform that monitors classroom engagement from a live
-webcam feed using computer vision and deep learning — no sensors, wearables, or
-IoT hardware. Just a laptop and a webcam.
-
-> **Status: v1.0.0 — complete.** All 7 build phases done and verified; a 42-test
-> suite (unit/integration/system/performance) passes. Runnable via `python main.py`.
+> **AI-Powered Classroom Engagement & Teaching Quality Monitoring System using Computer Vision, Deep Learning and Real-Time Analytics**
 
 ---
 
-## What it does
+## 🌟 Overview
 
-For each student in frame it detects faces, tracks eye movement and gaze, reads
-facial emotion, and blends these into a live **engagement score (0–100)** mapped to
-a level (Poor / Average / Good / Excellent). From the per-student scores it derives
-classroom analytics, flags prolonged inattention, generates supportive student and
-teacher remarks, draws live trend graphs, and exports PDF / Excel / CSV reports.
+EduSense AI 360 is an intelligent classroom analytics platform that leverages Artificial Intelligence and Computer Vision to help educators understand classroom engagement in real time.
 
-> Teacher analytics describe classroom *engagement patterns* and never evaluate the
-> teacher.
+The system analyzes classroom activity through a live camera feed and generates meaningful insights such as student engagement, attention trends, AI confidence scores, session analytics, and teacher recommendations.
+
+Instead of evaluating individual students, EduSense AI 360 focuses on overall classroom learning patterns, helping teachers improve teaching effectiveness through data-driven insights.
 
 ---
 
-## Project structure (Part 4 target)
+# ✨ Key Features
+
+- 🎥 Live Classroom Monitoring
+- 😊 Emotion Detection
+- 👀 Eye Tracking
+- 🧠 Classroom Engagement Analysis
+- 📊 Real-Time Analytics Dashboard
+- 📈 Engagement Trend Graphs
+- 📉 Analytics Visualization
+- 👨‍🏫 AI Teacher Insights
+- 📄 Automated Session Reports
+- 📦 Exportable Reports
+- ⚡ Fast Interactive Dashboard
+- 🔒 Privacy-Focused Classroom Analytics
+
+---
+
+# 📸 Screenshots
+
+## Dashboard
+
+![Dashboard](screenshots/dashboard.png)
+
+---
+
+## Live Detection
+
+![Live Detection](screenshots/live%20detection.png)
+
+---
+
+## Live Tracking
+
+![Live Tracking](screenshots/live%20tracking.png)
+
+---
+
+## Analytics Dashboard
+
+![Analytics](screenshots/analytics.png)
+
+---
+
+## Engagement Graph
+
+![Engagement Graph](screenshots/engagement%20graph.png)
+
+---
+
+## Analytics Graph
+
+![Analytics Graph](screenshots/analytics%20graph.png)
+
+---
+
+## Teacher Insights
+
+![Teacher Insights](screenshots/Teacher%20insights.png)
+
+---
+
+## AI Confidence
+
+![AI Confidence](screenshots/AI%20confidence%20.png)
+
+---
+
+## Session Reports
+
+### Report 1
+
+![Session Report](screenshots/session%20report%201.png)
+
+### Report 2
+
+![Session Report](screenshots/session%20report%202.png)
+
+---
+
+# 🏗️ System Architecture
 
 ```
-edusense_ai_360/
-├── main.py                     # ✅ entry point (python main.py)
-├── requirements.txt · VERSION · LICENSE · CHANGELOG.md · pyproject.toml
-│
-├── frontend/                   # Gradio presentation layer
-│   ├── ✅ views/ · components/ · callbacks/ · theme/ · app_ui.py
-│
-├── backend/                    # domain logic
-│   ├── pipeline/               # ✅ perception orchestrator (frame_pipeline)
-│   ├── camera/                 # ✅ capture, buffering, frame processing, recovery
-│   ├── ai_models/              # ✅ face / eye / emotion + model registry
-│   ├── analytics/              # ✅ engagement, attention, student, teacher
-│   ├── remarks/                # ✅ student + teacher remarks engine
-│   ├── session/                # ✅ session lifecycle, timer, persistence
-│   ├── reporting/              # ✅ graph + report + export engines (PDF/Excel/CSV)
-│   ├── contracts/              # ✅ typed data contracts (+ FrameQuality)
-│   └── services/               # ✅ notifications, health, performance
-│
-├── config/                     # ✅ default_config.json + config & settings managers
-├── core/                       # ✅ exceptions · logger · error_handler
-├── utilities/                  # ✅ maths · smoothing · validation · safe IO
-│
-├── assets/  (icons·fonts·themes·images)   models/   data/   exports/   logs/
-├── documentation/srs/          # ✅ full SRS (Parts 1B–4)
-├── ✅ tests/  (unit·integration·system·performance — 42 passing)
-├── ✅ scripts/ (install·run·package) · ✅ samples/ (PDF·Excel·CSV)
+Camera
+    │
+    ▼
+OpenCV
+    │
+    ▼
+MediaPipe
+    │
+    ▼
+AI Processing Engine
+    ├── Face Detection
+    ├── Eye Tracking
+    ├── Emotion Detection
+    ├── Engagement Analysis
+    └── Attention Analysis
+            │
+            ▼
+Analytics Engine
+            │
+            ▼
+Dashboard & Reports
 ```
-✅ = implemented in Phase 1.
 
 ---
 
-## Configuration
+# ⚙️ Technology Stack
 
-All tunable behaviour lives in `config/default_config.json` and is served through
-`ConfigManager` (dot-path access, schema validation, env-var overrides, automatic
-engagement-weight normalisation). User changes are handled by `SettingsManager`
-(validate → persist to `config/user_config.json` → reset / import / export), never
-touching the shipped defaults.
-
----
-
-## Documentation
-
-The formal Software Requirement Specification lives in `documentation/srs/`:
-- **Part 1B — Functional Requirements** — all 16 modules with traceable IDs (`FR-XX-NNN`).
-- **Part 2 — UI/UX Design Specification** — full design-token system, layout, components.
-- **Part 3 — AI & Backend Architecture** — layers, contracts, pipelines, engines.
-- **Part 4 — Development Blueprint** — structure, standards, testing, packaging.
-- **Part 6 — AI Decision Logic & Intelligence** — how the AI reasons: attention,
-  emotion, engagement, distraction, session, insight, remarks, alert, trend, and
-  confidence engines, plus decision priority, false-positive reduction, and ethics.
+| Category | Technologies |
+|-----------|-------------|
+| Programming Language | Python |
+| Backend | FastAPI |
+| Frontend | React |
+| UI | Tailwind CSS |
+| Computer Vision | OpenCV |
+| AI Framework | MediaPipe |
+| Charts | Chart.js |
+| Reports | Python PDF Libraries |
 
 ---
 
-## Setup (once the build completes)
+# 📂 Project Structure
+
+```
+EduSense-AI-360
+│
+├── assets/
+├── backend/
+├── config/
+├── core/
+├── data/
+├── documentation/
+├── exports/
+├── frontend/
+├── logs/
+├── models/
+├── samples/
+├── scripts/
+├── screenshots/
+├── tests/
+├── utilities/
+│
+├── README.md
+├── main.py
+└── requirements.txt
+```
+
+---
+
+# 🚀 Installation
 
 ```bash
-python -m venv venv
-source venv/bin/activate          # Windows: venv\Scripts\activate
+git clone https://github.com/jeevanvk22-ship-it/EduSense-AI-360.git
+```
+
+```bash
+cd EduSense-AI-360
+```
+
+```bash
 pip install -r requirements.txt
+```
+
+```bash
 python main.py
 ```
 
-**Tech stack:** Python 3.12 · Gradio · OpenCV · MediaPipe · FER/DeepFace ·
-NumPy/Pandas · Plotly · ReportLab/OpenPyXL · JSON config · Python logging
+---
+
+# 📊 Workflow
+
+```
+Start Application
+        │
+        ▼
+Open Camera
+        │
+        ▼
+Capture Video Frames
+        │
+        ▼
+AI Processing
+        │
+        ├── Face Detection
+        ├── Eye Tracking
+        ├── Emotion Analysis
+        └── Engagement Analysis
+                │
+                ▼
+Generate Analytics
+                │
+                ▼
+Teacher Dashboard
+                │
+                ▼
+Session Reports
+```
+
+---
+
+# 🚀 Future Roadmap
+
+- Mobile Application
+- Cloud Dashboard
+- Multi-Camera Classroom Support
+- Attendance Integration
+- AI Lesson Recommendations
+- Advanced Classroom Heatmaps
+- Multi-Language Support
+- School-Wide Analytics
+
+---
+
+# 🎯 Applications
+
+- Schools
+- Colleges
+- Smart Classrooms
+- Educational Institutions
+- Teacher Training
+- Academic Research
+
+---
+
+# 👨‍💻 Developer
+
+**JEEVAN V K**
+
+Student Entrepreneur | AI Developer | Building AI Solutions for Education
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+# ⭐ Support
+
+If you found this project useful, consider giving it a ⭐ on GitHub.
+
+---
+
+> **EduSense AI 360 — Transforming Classrooms with Artificial Intelligence**
