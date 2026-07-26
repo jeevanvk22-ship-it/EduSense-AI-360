@@ -2,15 +2,15 @@
   <img src="banner.png" width="100%">
 </p>
 
+<p align="center">
+
 ![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
-
 ![Gradio](https://img.shields.io/badge/Gradio-Latest-orange)
-
 ![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
-
 ![MediaPipe](https://img.shields.io/badge/MediaPipe-AI-purple)
-
 ![License](https://img.shields.io/badge/License-MIT-red)
+
+</p>
 
 # 🎓 EduSense AI 360
 
@@ -18,13 +18,46 @@
 
 ---
 
-## 🌟 Overview
+# 🌟 Overview
 
 EduSense AI 360 is an intelligent classroom analytics platform that leverages Artificial Intelligence and Computer Vision to help educators understand classroom engagement in real time.
 
 The system analyzes classroom activity through a live camera feed and generates meaningful insights such as student engagement, attention trends, AI confidence scores, session analytics, and teacher recommendations.
 
 Instead of evaluating individual students, EduSense AI 360 focuses on overall classroom learning patterns, helping teachers improve teaching effectiveness through data-driven insights.
+
+---
+
+# 📌 Project Highlights
+
+- 🚀 Real-Time Classroom Analytics
+- 🎯 AI-Powered Engagement Monitoring
+- 😊 Emotion & Attention Analysis
+- 👨‍🏫 AI Teacher Insights
+- 📊 Interactive Analytics Dashboard
+- 📄 Automated PDF Session Reports
+- ⚡ Fast & Responsive User Interface
+- 🔒 Privacy-Focused Classroom Analytics
+
+---
+
+# 📑 Table of Contents
+
+- Overview
+- Key Features
+- Screenshots
+- System Architecture
+- Technology Stack
+- Project Structure
+- Installation
+- System Workflow
+- AI Processing Pipeline
+- Performance Metrics
+- Future Roadmap
+- Applications
+- Impact
+- Developer
+- License
 
 ---
 
@@ -109,28 +142,34 @@ Instead of evaluating individual students, EduSense AI 360 focuses on overall cl
 
 # 🏗️ System Architecture
 
-```
-Camera
-    │
-    ▼
-OpenCV
-    │
-    ▼
-MediaPipe
-    │
-    ▼
-AI Processing Engine
-    ├── Face Detection
-    ├── Eye Tracking
-    ├── Emotion Detection
-    ├── Engagement Analysis
-    └── Attention Analysis
-            │
-            ▼
-Analytics Engine
-            │
-            ▼
-Dashboard & Reports
+```text
+                Camera
+                   │
+                   ▼
+              OpenCV Engine
+                   │
+                   ▼
+             MediaPipe AI
+                   │
+                   ▼
+        AI Processing Engine
+      ├─────────────────────────┐
+      │                         │
+      ▼                         ▼
+ Face Detection          Pose Detection
+      │                         │
+      └────────────┬────────────┘
+                   ▼
+        Emotion & Attention Analysis
+                   │
+                   ▼
+        Engagement Score Calculation
+                   │
+                   ▼
+         Teacher Insight Engine
+                   │
+                   ▼
+      Dashboard • Analytics • Reports
 ```
 
 ---
@@ -148,51 +187,53 @@ Dashboard & Reports
 | Interactive Charts | Plotly |
 | Report Generation | ReportLab, OpenPyXL |
 | Performance Monitoring | psutil |
-| Project Structure | Modular Python Architecture |
+| Project Architecture | Modular Python Design |
 
 ---
 
 # 📂 Project Structure
 
-```
-EduSense-AI-360
+```text
+EduSense-AI-360/
 │
-├── assets/
+├── main.py
 ├── backend/
-├── config/
-├── core/
-├── data/
-├── documentation/
-├── exports/
 ├── frontend/
-├── logs/
+├── core/
+├── config/
 ├── models/
+├── assets/
 ├── samples/
-├── scripts/
-├── screenshots/
+├── documentation/
 ├── tests/
 ├── utilities/
-│
-├── README.md
-├── main.py
-└── requirements.txt
+├── requirements.txt
+└── README.md
 ```
 
 ---
 
 # 🚀 Installation
 
+### Clone Repository
+
 ```bash
 git clone https://github.com/jeevanvk22-ship-it/EduSense-AI-360.git
 ```
+
+### Navigate into the Project
 
 ```bash
 cd EduSense-AI-360
 ```
 
+### Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
+
+### Run the Application
 
 ```bash
 python main.py
@@ -200,66 +241,106 @@ python main.py
 
 ---
 
-# 📊 Workflow
+# 🧠 System Workflow
 
+```text
+Camera Input
+      │
+      ▼
+Frame Capture (OpenCV)
+      │
+      ▼
+Face & Pose Detection (MediaPipe)
+      │
+      ▼
+AI Engagement Analysis
+      │
+      ├───────────────┐
+      ▼               ▼
+Emotion Score   Attention Score
+      │               │
+      └──────┬────────┘
+             ▼
+ Engagement Calculation
+             │
+             ▼
+ Teacher Insights Engine
+             │
+             ▼
+ Dashboard + PDF Reports
 ```
-Start Application
-        │
-        ▼
-Open Camera
-        │
-        ▼
-Capture Video Frames
-        │
-        ▼
-AI Processing
-        │
-        ├── Face Detection
-        ├── Eye Tracking
-        ├── Emotion Analysis
-        └── Engagement Analysis
-                │
-                ▼
-Generate Analytics
-                │
-                ▼
-Teacher Dashboard
-                │
-                ▼
-Session Reports
-```
+
+---
+
+# ⚙️ AI Processing Pipeline
+
+1. Capture live classroom video.
+2. Detect faces and body landmarks.
+3. Analyze student emotions.
+4. Estimate attention levels.
+5. Compute engagement scores.
+6. Generate teacher insights.
+7. Display interactive analytics.
+8. Export comprehensive PDF reports.
+
+---
+
+# 📊 Performance Metrics
+
+- ⚡ Real-Time Processing
+- 😊 Emotion Recognition
+- 👀 Attention Detection
+- 📈 Engagement Score
+- 🤖 AI Confidence Indicator
+- 📄 Automated PDF Reports
+- 📊 Interactive Dashboard
 
 ---
 
 # 🚀 Future Roadmap
 
-- Mobile Application
-- Cloud Dashboard
-- Multi-Camera Classroom Support
-- Attendance Integration
-- AI Lesson Recommendations
-- Advanced Classroom Heatmaps
-- Multi-Language Support
-- School-Wide Analytics
+- 📱 Mobile Application
+- ☁️ Cloud Dashboard
+- 🎥 Multi-Camera Classroom Support
+- ✅ Smart Attendance Integration
+- 🧠 AI Lesson Recommendations
+- 🔥 Classroom Heatmaps
+- 🌐 Multi-Language Support
+- 🏫 School-Wide Analytics Platform
 
 ---
 
 # 🎯 Applications
 
-- Schools
-- Colleges
-- Smart Classrooms
-- Educational Institutions
-- Teacher Training
-- Academic Research
+- 🏫 Schools
+- 🎓 Colleges
+- 🖥️ Smart Classrooms
+- 📚 Educational Institutions
+- 👨‍🏫 Teacher Training
+- 🔬 Academic Research
+
+---
+
+# 🌍 Impact
+
+EduSense AI 360 empowers educational institutions with AI-driven classroom analytics.
+
+### Benefits
+
+- 📈 Improves classroom engagement
+- 👨‍🏫 Supports teachers with actionable insights
+- 🎯 Enables data-driven teaching strategies
+- 📄 Automates classroom reporting
+- ⚡ Saves teachers valuable time
+- 🏫 Enhances overall learning outcomes
 
 ---
 
 # 👨‍💻 Developer
 
-**JEEVAN V K**
+## **JEEVAN V K**
 
-Student Entrepreneur | AI Developer | Building AI Solutions for Education
+**Student Entrepreneur | AI Developer | Building AI Solutions for Education**
 
 ---
 
@@ -271,8 +352,20 @@ This project is licensed under the **MIT License**.
 
 # ⭐ Support
 
-If you found this project useful, consider giving it a ⭐ on GitHub.
+If you found this project helpful,
+
+⭐ Star this repository
+
+🍴 Fork the project
+
+💡 Share your feedback
 
 ---
 
-> **EduSense AI 360 — Transforming Classrooms with Artificial Intelligence**
+<h3 align="center">
+🚀 Transforming Classrooms with Artificial Intelligence 🚀
+</h3>
+
+<p align="center">
+Made with ❤️ using Python, OpenCV, MediaPipe & Gradio
+</p>
