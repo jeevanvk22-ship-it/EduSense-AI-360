@@ -152,34 +152,27 @@ Dashboard & Reports
 
 ---
 
-# 📂 Project Structure
+## 📂 Project Structure
 
-```
-EduSense-AI-360
+```text
+EduSense-AI-360/
 │
-├── assets/
-├── backend/
-├── config/
-├── core/
-├── data/
-├── documentation/
-├── exports/
-├── frontend/
-├── logs/
-├── models/
-├── samples/
-├── scripts/
-├── screenshots/
-├── tests/
-├── utilities/
-│
-├── README.md
-├── main.py
-└── requirements.txt
-```
-
+├── main.py                 # Main application
+├── backend/                # AI processing modules
+├── frontend/               # User interface
+├── core/                   # Core logic
+├── config/                 # Configuration files
+├── models/                 # AI models
+├── assets/                 # Images & icons
+├── samples/                # Sample videos/images
+├── documentation/          # Project documentation
+├── tests/                  # Testing utilities
+├── utilities/              # Helper functions
+├── requirements.txt
+└── README.md
 ---
 
+---
 # 🚀 Installation
 
 ```bash
@@ -199,38 +192,56 @@ python main.py
 ```
 
 ---
+## 🧠 System Workflow
 
-# 📊 Workflow
-
-```
-Start Application
-        │
-        ▼
-Open Camera
-        │
-        ▼
-Capture Video Frames
-        │
-        ▼
-AI Processing
-        │
-        ├── Face Detection
-        ├── Eye Tracking
-        ├── Emotion Analysis
-        └── Engagement Analysis
-                │
-                ▼
-Generate Analytics
-                │
-                ▼
-Teacher Dashboard
-                │
-                ▼
-Session Reports
-```
+```text
+Camera Input
+      │
+      ▼
+Frame Capture (OpenCV)
+      │
+      ▼
+Face & Pose Detection (MediaPipe)
+      │
+      ▼
+AI Engagement Analysis
+      │
+      ├───────────────┐
+      ▼               ▼
+Emotion Score     Attention Score
+      │               │
+      └──────┬────────┘
+             ▼
+ Engagement Calculation
+             │
+             ▼
+Teacher Insights Engine
+             │
+             ▼
+Dashboard + PDF Report
 
 ---
+## ⚙️ AI Processing Pipeline
 
+1. Capture live video.
+2. Detect students using Computer Vision.
+3. Estimate face and body landmarks.
+4. Analyze engagement indicators.
+5. Calculate engagement score.
+6. Generate teacher recommendations.
+7. Display analytics dashboard.
+8. Export session report.
+---
+## 📊 Performance Metrics
+
+- Real-Time Processing
+- Live Engagement Score
+- Teacher Confidence Indicator
+- Emotion Analysis
+- Attention Detection
+- Automated PDF Reports
+- Interactive Dashboard
+---
 # 🚀 Future Roadmap
 
 - Mobile Application
@@ -252,6 +263,19 @@ Session Reports
 - Educational Institutions
 - Teacher Training
 - Academic Research
+---
+
+## 🌍 Impact
+
+EduSense AI 360 helps educational institutions improve classroom learning through AI-powered analytics.
+
+### Benefits
+
+- Improves student engagement
+- Assists teachers with data-driven insights
+- Enables personalized teaching strategies
+- Saves teachers' time with automated reports
+- Supports smarter classroom management
 
 ---
 
