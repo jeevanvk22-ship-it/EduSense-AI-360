@@ -241,9 +241,9 @@ Session Reports
 
 # 👨‍💻 Developer
 
-**Jeevan V K**
+**JEEVAN V K**
 
-Founder — **Catalnext AI Technologies**
+Student Entrepreneur | AI Developer | Building AI Solutions for Education
 
 ---
 
