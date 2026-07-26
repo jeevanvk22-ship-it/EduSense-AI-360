@@ -1,3 +1,16 @@
+<p align="center">
+  <img src="banner.png" width="100%">
+</p>
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+
+![Gradio](https://img.shields.io/badge/Gradio-Latest-orange)
+
+![OpenCV](https://img.shields.io/badge/OpenCV-Computer%20Vision-green)
+
+![MediaPipe](https://img.shields.io/badge/MediaPipe-AI-purple)
+
+![License](https://img.shields.io/badge/License-MIT-red)
+
 # 🎓 EduSense AI 360
 
 > **AI-Powered Classroom Engagement & Teaching Quality Monitoring System using Computer Vision, Deep Learning and Real-Time Analytics**
