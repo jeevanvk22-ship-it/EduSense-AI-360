@@ -123,16 +123,18 @@ Dashboard & Reports
 
 # ⚙️ Technology Stack
 
-| Category | Technologies |
-|-----------|-------------|
-| Programming Language | Python |
-| Backend | FastAPI |
-| Frontend | React |
-| UI | Tailwind CSS |
+| Category | Technology |
+|----------|------------|
+| Programming Language | Python 3.12+ |
+| User Interface | Gradio |
 | Computer Vision | OpenCV |
 | AI Framework | MediaPipe |
-| Charts | Chart.js |
-| Reports | Python PDF Libraries |
+| Emotion Detection | FER (Facial Emotion Recognition) |
+| Data Processing | NumPy, Pandas |
+| Interactive Charts | Plotly |
+| Report Generation | ReportLab, OpenPyXL |
+| Performance Monitoring | psutil |
+| Project Structure | Modular Python Architecture |
 
 ---
 
