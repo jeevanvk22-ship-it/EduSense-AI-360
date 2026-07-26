@@ -180,6 +180,63 @@ Instead of evaluating individual students, EduSense AI 360 focuses on overall cl
       Dashboard • Analytics • Reports
 ```
 
+# 🏗️ Backend Architecture
+
+<p align="center">
+  <img src="screenshots/backend-architecture.png" width="100%" alt="EduSense AI 360 Backend Architecture">
+</p>
+
+The backend of **EduSense AI 360** follows a modular AI pipeline designed for real-time classroom analytics. The system captures live video, processes frames using computer vision, performs AI-based engagement analysis, stores session data, generates reports, and presents actionable insights through an interactive dashboard.
+
+### Workflow
+
+- 📷 **Data Source**
+  - Live Camera/Webcam
+  - Classroom Video Feed
+  - Image Frames
+
+- ⚙️ **Data Processing**
+  - Frame Capture (OpenCV)
+  - Frame Preprocessing
+  - Face Detection (MediaPipe)
+  - Landmark Extraction
+  - Eye Tracking
+  - Pose Estimation
+
+- 🧠 **AI Analysis Engine**
+  - Emotion Detection (FER)
+  - Attention Analysis
+  - Head Pose Analysis
+  - Engagement Scoring
+  - Classroom Behavior Analysis
+
+- 💾 **Data Management**
+  - Session Storage (JSON/CSV)
+  - Database Management
+  - Statistics & Analytics
+
+- 📄 **Report Generation**
+  - PDF Reports (ReportLab)
+  - Excel Reports (OpenPyXL)
+  - Interactive Charts (Plotly)
+
+- 🖥️ **User Interface**
+  - Live Monitoring Dashboard
+  - Analytics Dashboard
+  - Teacher Insights
+  - Report Downloads
+
+- 🛠️ **Utilities**
+  - Configuration Management
+  - Logging
+  - Performance Monitoring
+  - Error Handling
+  - File Management
+
+---
+
+> **The modular architecture enables efficient real-time classroom monitoring, scalable AI processing, automated report generation, and seamless visualization of classroom engagement analytics.**
+
 ---
 
 # ⚙️ Technology Stack
